@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+@media(max-width:700px){
+  .brandName{
+    font-size: 18px !important;
+  }
+  .brandName2{
+    font-size: 12px !important;
+  }
+  .dprtmntBox{
+    width: 70% !important;
+    height: 180px;
+  }
+  .appointmentBox{
+    width: 95% !important;
+  }
+  .mainHead{
+    font-size: 22px;
+  }
+  .contents{
+    font-size: 13px !important;
+  }
+  .subHead{
+    font-size: 18px;
+  }
+}
