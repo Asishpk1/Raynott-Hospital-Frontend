@@ -42,7 +42,7 @@ const AdminDashboard = () => {
     return (
         <>
             <div className="p-md-5 p-3" style={{ backgroundColor: '#3473d8ff', minHeight: "100vh" }}>
-                <h6 className="text-end"><button onClick={Logout} className="btn bg-light rounded-5">Logout</button></h6>
+                <h6 className="text-end"><button onClick={Logout} className="btn bg-light rounded-5 contents2">Logout</button></h6>
                 <h1 className="fw-bold text-center pt-md-3 text-light headings"
                     style={{ letterSpacing: '1px' }}>
                     Admin Dashboard
