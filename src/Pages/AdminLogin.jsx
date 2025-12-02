@@ -25,6 +25,10 @@ const AdminLogin = () => {
                     navigate('/dashboard')
                 }, 1500);
             }
+            if(result.status == 401){
+                toast.warning(result.response.data)
+                setData({ email: "", password: "" })
+            }
         }
         catch (err) {
             console.log(err);
