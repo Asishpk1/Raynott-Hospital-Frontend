@@ -8,6 +8,8 @@ import Appointment from './Pages/Appointment'
 import Departments from './Pages/Departments'
 import Doctors from './Pages/Doctors'
 import About from './Pages/About'
+import AdminLogin from './Pages/AdminLogin'
+import AdminDashboard from './Pages/AdminDashboard'
 
 function App() {
 
@@ -33,6 +35,8 @@ function App() {
         <Route path='/departments' element={<Departments/>}/>
         <Route path='/doctors' element={<Doctors/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/login' element={<AdminLogin/>}/>
+        <Route path='/dashboard' element={<AdminDashboard/>}/>
       </Routes>
       <Footer/>
     </>

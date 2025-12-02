@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
             <div className='container-fluid shadow'>
-                <div className='row d-flex justify-content-between p-md-5 p-3 gap-4' style={{ backgroundColor: 'whitesmoke' }}>
+                <div className='row d-flex justify-content-between p-md-5 p-3 gap-4' style={{ backgroundColor: 'white' }}>
                     <div className="col-md-4">
                         <h2 className='fw-bold subHead' style={{ color: '#3473d8ff' }}> <i className="fa-solid fa-circle-h"></i> Raynott <span className='brandName2' style={{ fontSize: '20px' }}>Multi Speciality Hospital</span>  </h2>
                         <p style={{ fontSize: '15px' }} className='text-secondary opacity-75 contents'>Leading healthcare provider committed to excellence in medical services and patient care.</p>
